@@ -11,3 +11,6 @@
   - 이로 인해서 `RetryableEurekaHttpClient`가 해당 서버 Peer를 `quarantineSet`에 포함하지 못하기 때문에 `HeartBeatThread`가 매 interval마다 재실행되어도 동일하게 무응답 서버 Peer로 request를 보냄
   - `RestTemplateEurekaHttpClient`의 `RestTemplate` Default Timeout을 설정하여 `RetryableEurekaHttpClient`에서 `TransportException`이 발생할 수 있도록 Fast-fail 시켜야함
   - property 주입이 가능하도록 코드 변경
+
+- ![In Review](https://img.shields.io/badge/-in%20review-red) [spring-cloud/spring-cloud-commons](https://github.com/spring-cloud/spring-cloud-commons/issues/1203) [#1203](https://github.com/spring-cloud/spring-cloud-commons/issues/1203)
+  - [`LoadBalancerCacheManager`](https://github.com/spring-cloud/spring-cloud-commons/blob/main/spring-cloud-loadbalancer/src/main/java/org/springframework/cloud/loadbalancer/config/LoadBalancerCacheAutoConfiguration.java#L106)가 Bean 등록될 때 autowire candidate에서 제외되고 있는데, 현재 Contribute 하려는 기능에서는 해당 Bean의 주입이 필요하기 때문에 작성 의도를 파악하여, 이에 맞게 코드 작성 예정
