@@ -2,7 +2,7 @@
 
 # ContributionHistory
 
-- ![In Review](https://img.shields.io/badge/-in%20review-red) [spring-cloud/spring-cloud-netflix](https://github.com/spring-cloud/spring-cloud-netflix) [#4144](https://github.com/spring-cloud/spring-cloud-netflix/pull/4144)
+- ![Answered](https://img.shields.io/badge/-answered-brightgreen) [spring-cloud/spring-cloud-netflix](https://github.com/spring-cloud/spring-cloud-netflix) [#4144](https://github.com/spring-cloud/spring-cloud-netflix/pull/4144)
   - `eureka.client.transport` properties와 관련한 Official Documentation을 찾아보기 어려웠는데, 특히 서버 Peering + Multi-AZ 구성을 하게 될 경우 `retryable-client-quarantine-refresh-percentage` 속성이 서버 Peer 개수와 AZ 설정에 영향을 받기 때문에 값 설정이 중요함
   - 따라서 이와 관련하여 해당 속성의 본 의도를 우선 파악하고, 필요한 경우 문서화를 할 필요가 있음 (추후에 시도 계획)
 
