@@ -14,3 +14,6 @@
 
 - ![Answered](https://img.shields.io/badge/-answered-brightgreen) [spring-cloud/spring-cloud-commons](https://github.com/spring-cloud/spring-cloud-commons/issues/1203) [#1203](https://github.com/spring-cloud/spring-cloud-commons/issues/1203)
   - [`LoadBalancerCacheManager`](https://github.com/spring-cloud/spring-cloud-commons/blob/main/spring-cloud-loadbalancer/src/main/java/org/springframework/cloud/loadbalancer/config/LoadBalancerCacheAutoConfiguration.java#L106)가 Bean 등록될 때 autowire candidate에서 제외되고 있는데, 현재 Contribute 하려는 기능에서는 해당 Bean의 주입이 필요하기 때문에 작성 의도를 파악하여, 이에 맞게 코드 작성 예정
+
+- ![In-Review](https://img.shields.io/badge/-in-review-red) [spring-cloud/spring-cloud-commons](https://github.com/spring-cloud/spring-cloud-commons/pull/1212) [#1212](https://github.com/spring-cloud/spring-cloud-commons/pull/1212)
+  - Multi-AZ 환경에서의 로드밸런싱 기능 - Primary Zone 우선으로 Reference를 맞추고, Primary Zone Unavailable할 때 Secondary Zones로 향하도록 변경
