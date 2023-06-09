@@ -20,3 +20,6 @@
 
 - ![In-Review](https://img.shields.io/badge/-in%20review-red) [spring-cloud/spring-cloud-circuitbreaker](https://github.com/spring-cloud/spring-cloud-circuitbreaker/pull/172) [#172](https://github.com/spring-cloud/spring-cloud-circuitbreaker/pull/172)
   - Fixes Typo (Documentation)
+
+- ![In-Review](https://img.shields.io/badge/-in%20review-red) [spring-cloud/spring-cloud-commons](https://github.com/spring-cloud/spring-cloud-commons/pull/1243) [#1243](https://github.com/spring-cloud/spring-cloud-commons/pull/1243)
+  - Removes unnecessary curly bracket `}` (Documentation)
