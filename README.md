@@ -17,3 +17,6 @@
 
 - ![In-Review](https://img.shields.io/badge/-in%20review-red) [spring-cloud/spring-cloud-commons](https://github.com/spring-cloud/spring-cloud-commons/pull/1212) [#1212](https://github.com/spring-cloud/spring-cloud-commons/pull/1212)
   - Multi-AZ 환경에서의 로드밸런싱 기능 - Primary Zone 우선으로 Reference를 맞추고, Primary Zone Unavailable할 때 Secondary Zones로 향하도록 변경
+
+- ![In-Review](https://img.shields.io/badge/-in%20review-red) [spring-cloud/spring-cloud-circuitbreaker](https://github.com/spring-cloud/spring-cloud-circuitbreaker/pull/172) [#172](https://github.com/spring-cloud/spring-cloud-circuitbreaker/pull/172)
+  - Fixes Typo (Documentation)
