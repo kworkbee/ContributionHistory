@@ -23,3 +23,6 @@
 
 - ![Closed](https://img.shields.io/badge/-closed-brightgreen) [spring-cloud/spring-cloud-commons](https://github.com/spring-cloud/spring-cloud-commons/pull/1243) [#1243](https://github.com/spring-cloud/spring-cloud-commons/pull/1243)
   - Removes unnecessary curly bracket `}` (Documentation)
+
+- ![Closed](https://img.shields.io/badge/-closed-brightgreen) [spring-cloud/spring-cloud-config](https://github.com/spring-cloud/spring-cloud-config/pull/2334) [#2334](https://github.com/spring-cloud/spring-cloud-config/pull/2334)
+  - 서버 / 클라이언트 간 `encrypt.key` 불일치시 발생할 수 있는 BadPaddingException에 대한 로그 메시지 설명 구체화
