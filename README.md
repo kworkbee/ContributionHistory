@@ -29,3 +29,6 @@
 
 - ![In-Review](https://img.shields.io/badge/-in%20review-red) [apache/apisix-helm-chart](https://github.com/apache/apisix-helm-chart/) [#739](https://github.com/apache/apisix-helm-chart/pull/739)
   - Apache APISIX Helm Chart에 Control API Expose되지 않은 이슈 해결
+
+- ![Merged](https://img.shields.io/badge/-merged-brightgreen) [apache/apisix-ingress-controller](https://github.com/apache/apisix-ingress-controller) [#2175](https://github.com/apache/apisix-ingress-controller/pull/2175)
+  - ApisixRoute v2 관련 Property 문서 누락 보완 
