@@ -1,4 +1,4 @@
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fkworkbee%2FContributionHistory&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+[![hits](https://myhits.vercel.app/api/hit/https%3A%2F%2Fgithub.com%2Fkworkbee%2FContributionHistory?color=red&label=hits&size=small)](https://myhits.vercel.app)
 
 # ContributionHistory
 
@@ -32,3 +32,10 @@
 
 - ![Merged](https://img.shields.io/badge/-merged-brightgreen) [apache/apisix-ingress-controller](https://github.com/apache/apisix-ingress-controller) [#2175](https://github.com/apache/apisix-ingress-controller/pull/2175)
   - ApisixRoute v2 관련 Property 문서 누락 보완 
+
+- ![In-Review](https://img.shields.io/badge/-in%20review-red) [grafana/k6-operator](https://github.com/grafana/k6-operator) [#684](https://github.com/grafana/k6-operator/pull/684)
+  - K6 Operator Deployment 에 `dnsConfig` 및 `dnsPolicy` 설정할 수 있도록 템플릿 구성
+
+- ![In-Review](https://img.shields.io/badge/-in%20review-red) [grafana/k6-operator](https://github.com/grafana/k6-operator) [#685](https://github.com/grafana/k6-operator/pull/685)
+  - K6 Operator Service 의 labels 영역에 annotations 바인딩 오류 수정
+  
