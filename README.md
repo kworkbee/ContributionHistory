@@ -36,6 +36,6 @@
 - ![In-Review](https://img.shields.io/badge/-in%20review-red) [grafana/k6-operator](https://github.com/grafana/k6-operator) [#684](https://github.com/grafana/k6-operator/pull/684)
   - K6 Operator Deployment 에 `dnsConfig` 및 `dnsPolicy` 설정할 수 있도록 템플릿 구성
 
-- ![In-Review](https://img.shields.io/badge/-in%20review-red) [grafana/k6-operator](https://github.com/grafana/k6-operator) [#685](https://github.com/grafana/k6-operator/pull/685)
+- ![Merged](https://img.shields.io/badge/-merged-brightgreen) [grafana/k6-operator](https://github.com/grafana/k6-operator) [#685](https://github.com/grafana/k6-operator/pull/685)
   - K6 Operator Service 의 labels 영역에 annotations 바인딩 오류 수정
   
