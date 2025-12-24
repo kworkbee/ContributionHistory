@@ -33,7 +33,7 @@
 - ![Merged](https://img.shields.io/badge/-merged-brightgreen) [apache/apisix-ingress-controller](https://github.com/apache/apisix-ingress-controller) [#2175](https://github.com/apache/apisix-ingress-controller/pull/2175)
   - ApisixRoute v2 관련 Property 문서 누락 보완 
 
-- ![In-Review](https://img.shields.io/badge/-in%20review-red) [grafana/k6-operator](https://github.com/grafana/k6-operator) [#684](https://github.com/grafana/k6-operator/pull/684)
+- ![Merged](https://img.shields.io/badge/-merged-brightgreen) [grafana/k6-operator](https://github.com/grafana/k6-operator) [#684](https://github.com/grafana/k6-operator/pull/684)
   - K6 Operator Deployment 에 `dnsConfig` 및 `dnsPolicy` 설정할 수 있도록 템플릿 구성
 
 - ![Merged](https://img.shields.io/badge/-merged-brightgreen) [grafana/k6-operator](https://github.com/grafana/k6-operator) [#685](https://github.com/grafana/k6-operator/pull/685)
